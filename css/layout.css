@@ -3,17 +3,58 @@
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
-   
-    header {
-        background-color:red;
-        font-family: Arial, Helvetica, sans-serif;
+@media  (max-width: 767px) {
+  
+    html {
+        text-align: center;
+
     }
 
 
+    /* main {
+        margin: 0 auto;
+    } */
 
 
     
+    div {
+        box-sizing: border-box;
+    }
+
+    #a {
+        height: 75px;
+        width: 100%;
+    }
+
+    #b{
+        height: 150px;
+        width: 100%;
+
+    }
+
+    .two {
+        height: 125px;
+        width: 100%;
+    }
+
+    
+    .four {
+        width: 50%;
+        height: 250px;
+        float: left;
+    }
+
+    #g {
+        clear: both;
+    }
+    
+
+    #i {
+        height: 80px;
+        width:100% ;
+        clear: both;
+
+    }
   }
   
   
@@ -25,14 +66,51 @@
 
 @media (min-width: 768px) {
   
- 
-    header {
-        background-color: honeydew;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    html {
+        text-align: center;
+    }
+
+
+    div {
+        box-sizing: border-box;
+    }
+
+
+    #a {
+        height: 100px;
+        width: 100%;
+    }
+
+    #b{
+        height: 600px;
+        width: 20%;
+        float: left;
+
+    }
+
+    .two {
+        height: 200px;
+        width: 40%;
+        float: left;
+    }
+
+    
+    .four {
+        width: 20%;
+        height: 250px;
+        float: left;
+    }
+
+    #i {
+        height: 150px;
+        width:80% ;
+        float: left;
+
     }
 
 
 
-    
+
+
   }
   
