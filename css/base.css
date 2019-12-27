@@ -3,29 +3,43 @@
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media  (max-width: 767px) {
   
-    html {
-        text-align: center;
-    }
+  html {
+      background-color: gray;
+      text-align: center;
+      
 
-    
   }
-  
-  
 
-  /* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
+
+  /* main {
+      margin: 0 auto;
+  } */
+
+
+  
+  div {
+      border: 1px dotted black;
+  }
+
+}
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 768px) {
-  
-    html {
-        text-align: center;
-    }
 
-
-    
+  html {
+      background-color: darkgray;
   }
-  
+
+
+  div {
+      border: 1px dotted black;
+  }
+
+
+}
